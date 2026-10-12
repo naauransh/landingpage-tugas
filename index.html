@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <!-- link css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+    --font-poppins: "Poppins", sans-serif;
+    --font-slab: "Roboto Slab", sans-serif;
+  }
+</style>
+    <!-- link gfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="assets/kerjain-logo.svg" type="image/x-icon">
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Kerjain aja</title>
+</head>
+
+<body class="m-0 p-0 box-border font-poppins">
+    <!-- header -->
+    <header class="bg-[#EAEEFE] w-full">
+        <div class="w-full py-7 px-25 flex justify-between items-center">
+            <!-- logo kerja -->
+            <div>
+                <a href="">
+                    <img src="assets/kerjain-logo.svg" alt="kerja logo" class="w-60">
+                </a>
+            </div>
+
+            <!-- nav -->
+            <nav class="flex ">
+                <ul class="flex gap-10">
+                    <li
+                        class="text-[#a9aab4] text-[18px] font-normal cursor-pointer hover:text-[#2c40bf] transition-colors duration-300">
+                        <a href="#beranda">Beranda</a></li>
+                    <li
+                        class="text-[#a9aab4] text-[18px] font-normal cursor-pointer hover:text-[#2c40bf] transition-colors duration-300">
+                        <a href="#layanan">Layanan</a></li>
+                    <li
+                        class="text-[#a9aab4] text-[18px] font-normal cursor-pointer hover:text-[#2c40bf] transition-colors duration-300">
+                        <a href="#portofolio">Portofolio</a></li>
+                    <li
+                        class="text-[#a9aab4] text-[18px] font-normal cursor-pointer hover:text-[#2c40bf] transition-colors duration-300">
+                        <a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- section 1 buat beranda -->
+    <section id="beranda" class="flex pt-10 px-25 pb-40
+                bg-[#EAEEFE]
+                gap-70">
+        <!-- kiri -->
+        <div class="w-133">
+            <button class="p-3.5 bg-[#7F6DF0] text-white cursor-pointer rounded-full px-10">
+                <a href="#solusi" class="text-[18px] font-normal">Solusi Bisnis Digital</a>
+            </button>
+            <h1 class="text-[30px] text-[#7F6DF0] font-bold mt-8">Bangun Project Impian <br>Kamu Dengan Tim</h1>
+
+            <div class="w-45 my-3">
+                <img src="assets/kreatif.svg" alt="">
+            </div>
+
+            <p class="text-[#a9aab4] text-[14px]">Kami membantu usaha UMKM dan startup dalam membuat website yang dapat
+                mengembangkan bisnis mereka</p>
+
+            <div class="flex gap-14 items-center mt-6">
+
+                <button class="py-3 px-6 rounded-[5px] bg-[#FF6632] cursor-pointer mt-10">
+                    <a href="" class="text-white text-[18px] font-normal"> Mulai Sekarang</a>
+                </button>
+
+                <a href=""
+                    class="underline underline-offset-8 decoration-[#a9aab4] text-[16px] font-normal text-[#a9aab4] mt-8">Lihat
+                    Cara Kerjanya</a>
+            </div>
+
+        </div>
+
+        <!-- kanan -->
+        <div class="relative inline-block ">
+            <img src="assets/man-1.svg" alt="" class="w-60 block">
+
+            <img src="assets/figma.svg" alt="" class="absolute w-10 top-[10%] -left-5">
+            <img src="assets/vsc.svg" alt="" class="absolute w-10 top-[20%] -right-7">
+            <img src="assets/xd.svg" alt="" class="absolute w-10 bottom-[40%] -left-12">
+            <img src="assets/android.svg" alt="" class="absolute w-10 bottom-[25%] -right-14">
+        </div>
+    </section>
+
+    <!-- section 2 buat layanan -->
+    <section class="flex pt-10 px-25 pb-40 bg-white gap-70">
+        <div class="flex items-center gap-60 mt-10 ">
+            <!-- kiri -->
+            <div>
+                <h1 class="text-[#48494F] text-[36px] font-semibold mt-25">Dipercaya oleh Merk <br> dan Agen Terkenal
+                </h1>
+
+                <p class="text-[#a9aab4] text-[14px] mt-5 mb-5">Kami percaya merek adalah penghubung <br>
+                    antara perusahaan dengan pelanggan mereka</p>
+
+                <a href=""
+                    class="underline underline-offset-8 decoration-[#a9aab4] text-[16px] text-[#a9aab4] font-bold ">Lihat
+                    Cara Kerjanya &#8594;</a>
+            </div>
+
+            <!-- kanan -->
+            <div class="relative inline-block mt-33 mr-5">
+                <!-- logo atas -->
+                <div class="flex flex-row gap-10 mb-5 ">
+                    <img src="assets/vmware.svg" alt="">
+                    <img src="assets/cisco.svg" alt="">
+                    <img src="assets/mikrotik.svg" alt="">
+                </div>
+
+                <!-- logo bawah -->
+                <div class="flex flex-row gap-10">
+                    <img src="assets/digital.svg" alt="">
+                    <img src="assets/figma.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3 buat apa yg dilakukan  -->
+    <section id="layanan" class="pt-10 px-25 pb-40 bg-white">
+
+        <div class="text-[#48494F] text-center text-[36px] font-semibold">
+            Apa yang kami lakukan?
+        </div>
+
+        <div class="flex flex-row justify-center gap-10 mt-15">
+
+            <div
+                class="w-[320px] min-h-[430px] rounded-[20px] bg-[#EEF4FF] flex flex-col items-center text-center px-7 py-7">
+                <img src="assets/uiux.svg" alt="training" class="w-[170px] h-[170px] mb-5">
+                <h3 class="text-[#48494F] text-[32px] font-semibold mb-10 font-roboto-slab">UI/UX</h3>
+                <p class="text-[#676E87] text-[19px]">Landing Page, Wireframing, Prototyping, Mobile App Design, Web App
+                </p>
+            </div>
+
+            <div
+                class="w-[320px] min-h-[430px] rounded-[20px] bg-[#F5F0FF] flex flex-col items-center text-center px-7 py-7">
+                <img src="assets/cloud-service 1.svg" alt="training" class="w-[170px] h-[170px] mb-5">
+                <h3 class="text-[#48494F] text-[32px] font-semibold mb-10 font-roboto-slab">Cloud Service</h3>
+                <p class="text-[#676E87] text-[19px]">We provide the best service for your cloud service needs, and we
+                    are ready to partner</p>
+            </div>
+
+            <div
+                class="w-[320px] min-h-[430px] rounded-[20px] bg-[#F1FADC] flex flex-col items-center text-center px-7 py-7">
+                <img src="assets/training 1.svg" alt="training" class="w-[170px] h-[170px] mb-5">
+                <h3 class="text-[#48494F] text-[32px] font-semibold mb-10 font-roboto-slab">Training</h3>
+                <p class="text-[#676E87] text-[19px]">We provide an interesting concept to support your information
+                    needs, and we are ready to partner</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3 buat solusi -->
+    <section id="#solusi" class="flex items-start gap-10 px-25 py-20">
+        <div class="w-1/2 flex justify-start">
+            <img src="assets/mikir.svg" alt="foto mikir" class="w-80 block mx-20 mb-15">
+        </div>
+
+        <div class="w-1/2">
+
+            <h3 class="text-[34px] font-semibold leading-[1.4]">Solusi yang menjadikan bisnis anda lebih baik</h3>
+
+
+            <div class="flex flex-col gap-8 mt-10">
+                <div class="flex gap-3">
+                    <div class="w-6 h-6 shrink-0 mt-1 rounded-sm bg-[#F59079]"></div>
+                    <p class="text-[20px] leading-normal text-justify ">Kami mengembangkan ide-ide terbaik untuk
+                        menyelesaikan masalah yang Anda miliki</p>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col gap-8 mt-10">
+                <div class="flex gap-3">
+                    <div class="w-6 h-6 shrink-0 mt-1 rounded-sm bg-[#75A1F4]"></div>
+                    <p class="text-[20px] leading-normal text-justify ">Anda bisa ikut berdiskusi bersama kami dalam
+                        membangun projek seperti apa yang Anda inginkan</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-8 mt-10">
+                <div class="flex gap-3">
+                    <div class="w-6 h-6 shrink-0 mt-1 rounded-sm bg-[#F576AC]"></div>
+                    <p class="text-[20px] leading-normal text-justify ">Bersama tim KerjainAja yang berpengalaman,
+                        kapanpun, dimanapun kami siap membantu mengembangkan bisnis Anda</p>
+                </div>
+            </div>
+
+            <a href="" class="inline-block mt-14 ml-1 uppercase underline text-[16px] text-extralight">PELAJARI LEBIH
+                LANJUT KERJAINAJA.ID</a>
+
+        </div>
+    </section>
+
+    <!-- buat portifolio -->
+    <section id="portofolio" class="pt-10 px-25 pb-40">
+
+        <div class="text-center text-[36px] font-semibold text-[#48494F]">
+            Portofolio Kami
+        </div>
+
+        <div class="flex flex-row justify-center gap-10 mt-15">
+            <div class="flex flex-col items-center text-center w-[450px]">
+                <div
+                    class="rounded-[20px] bg-[#F1FADC] flex flex-col items-center justify-center px-7 py-7 w-full h-[500px]">
+                    <img src="assets/aplikasi covid.svg" alt="" class="mt-5 w-[350px] h-[400px] object-contain">
+                </div>
+
+                <h3 class="text-[20px] font-semibold font-roboto-slab mt-5">Aplikasi Informasi Data Covid-19 di
+                    Indonesia</h3>
+            </div>
+
+            <div class="flex flex-col items-center text-center w-[450px]">
+                <div
+                    class="rounded-[20px] bg-[#F5F0FF] flex flex-col items-center justify-center px-7 py-7 w-full h-[500px]">
+                    <img src="assets/Group 43.svg" alt="" class="mt-5 w-[350px] h-[400px] object-contain">
+                </div>
+
+                <h3 class="text-[20px] font-semibold font-roboto-slab mt-5">UI / UX Finder <br> Restaurant</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6 kontak kami -->
+    <section id="kontak" class="flex pt-10 px-25 pb-40
+                bg-[#EAEEFE]
+                gap-70">
+        <!-- bagian kanan -->
+        <div class="w-130">
+            <button class="p-3.5 bg-[#7F6DF0] rounded-4xl text-white cursor-pointer px-8 mt-30 ml-15">
+                <a href="">Kontak Kami</a>
+            </button>
+
+            <h2 class="text-[#7F6DF0] text-[38px] font-bold ml-15 mt-5 mb-5">Punya Ide Proyek? <br>Yuk, Hubungi kami!
+            </h2>
+
+            <p class="text-[#676E87] ml-15 mb-5">
+                Kami siap membantu dan menjawab semua pertanyaan seputar layanan, harga, maupun kebutuhan proyek kamu.
+            </p>
+
+            <div class="flex items-center gap-4 ml-15 mt-8">
+                <div class="w-14 h-14 rounded-full bg-[#E3E4FB] flex items-center justify-center">
+                    <i class="fa-solid fa-envelope text-[#7F6DF0] text-xl"></i>
+                </div>
+                <div>
+                    <p class="text-[#7F6DF0] font-semibold text-[18px] ">Email</p>
+                    <p class="text-[#676E87]">KerjainAja.@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4 ml-15 mt-6">
+                <div class="w-14 h-14 rounded-full bg-[#E3E4FB] flex items-center justify-center">
+                    <i class="fa-brands fa-instagram text-[#7F6DF0] text-xl"></i>
+                </div>
+                <div>
+                    <p class="text-[#7F6DF0] font-semibold text-[18px] ">Instagram</p>
+                    <p class="text-[#676E87]">KerjainAja.id </p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4 ml-15 mt-6">
+                <div class="w-14 h-14 rounded-full bg-[#E3E4FB] flex items-center justify-center">
+                    <i class="fa-solid fa-location-dot text-[#7F6DF0] text-xl"></i>
+                </div>
+
+                <div>
+                    <p class="text-[#7F6DF0] font-semibold text-[18px] ">Alamat</p>
+                    <p class="text-[#676E87]">Jl. Digital No.123, Jakarta Selatan <br> DKI Jakarta, Indonesia</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- bagian kanan -->
+        <div class="w-150 h-fit mt-35 bg-white rounded-3xl p-10">
+            <form id="formkontak" action="" method="post">
+                <label class="block text-[#1E2140] font-semibold mb-2">Nama Lengkap</label>
+                <input type="text" name="nama" placeholder="Masukkan Nama Anda" required
+                    class="w-full p-4 mb-6 rounded-xl border border-[#1E2140] outline-none focus:border-2 focus:border-[#FF6632]">
+
+                <label class="block text-[#1E2140] font-semibold mb-2">Email</label>
+                <input type="email" name="nama" placeholder="Masukkan Nama Anda" required
+                    class="w-full p-4 mb-6 rounded-xl border border-[#1E2140] outline-none focus:border-2 focus:border-[#FF6632]">
+
+                <label class="block text-[#1E2140] font-semibold mb-2">Pesan</label>
+                <textarea name="pesan" rows="4" placeholder="Ceritakan kebutuhan atau pertanyaan kamu..."
+                    class="w-full p-4 mb-6 rounded-xl border border-[#1E2140] outline-none focus:border-2 focus:border-[#FF6632]"></textarea>
+
+                <button type="submit" class="w-full p-4 rounded-lg bg-[#FF6632] text-white outline-none focus:border-2 focus:border-[#FF6632]">
+                    Kirim Pesan
+                </button>
+
+                <p id="info" class="mt-4 text-center"></p>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        var form = document.getElementById("formkontak");
+        var info = document.getElementById("info");
+
+        form.onsubmit = function (e) {
+            e.preventDefault();
+            alert("Pesan terkirim!");
+            form.reset();
+        };
+    </script>
+</body>
+
+</html>

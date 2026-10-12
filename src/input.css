@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme {
+    --font-dancing-script: "dancing script", sans-serif;
+    --font-poppins: "poppins", sans-serif;
+    --font-roboto-slab : "roboto slab", sans-serif;
+}
+@variant dark (&:where(.dark, .dark *));
